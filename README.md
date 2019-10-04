@@ -22,28 +22,20 @@ Steps To Execute :
 
 1.
 DB :
-Export DB to SQL Server
+- Export DB to SQL Server
 
 2.
 Web API (TrainingInfoAPI):
-	a.
-	Open the project.
-	b.
-	Change connection details in Web.config.
-		Key : TrainingEntities
-		Change values for : data source, user id, password
-	c.
-	Right click on TrainingInfoAPI->Properties->Web
-	d.
-	Note down the ProjectURL.
-	e.
-	Execute the project
+- Open the project.
+- Change connection details in Web.config.
+	Key : TrainingEntities
+	Change values for : data source, user id, password
+- Right click on TrainingInfoAPI->Properties->Web
+- Note down the ProjectURL.
+- Execute the project
 
 3.
 Angular (TrainingInfoApp):
-	a.
-	Change the port number in the baseURL in training.service.ts line at line 12.
-	b.
-	Save and Run ng serve. 
-	c.
-	Navigate to http://localhost:4200/.   
+- Change the port number in the baseURL in training.service.ts line at line 12.
+- Save and Run ng serve. 
+- Navigate to http://localhost:4200/.   
